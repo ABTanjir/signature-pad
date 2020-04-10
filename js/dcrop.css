@@ -1,0 +1,60 @@
+.signature-pad-container canvas{
+    border: 2px solid #a4b0be;
+}
+.signature-pad-container span button {
+    background-color: #f1f2f6;
+    border-radius: 50%;
+}
+.signature-pad-container span button:hover{
+    background-color: #ced6e0;
+}
+.image-previewer {
+    height: 120px;
+    width: 100px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.upload-signature{
+    background: url('./image.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-position: 50% ;
+    background-size: 40%;
+    margin-left:5px;
+}
+.signature:hover, .upload-signature:hover, .signature:focus, .upload-signature:focus{
+    background-size: 50%;
+    transition: all 0.5s ease;
+}
+.signature{
+    border: none;
+    background: url('./signature.png');
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    background-size: 40%;
+    background-color: #fff;
+}
+.light-modal-content{width: auto !important;}
+.signArea .sigWrapper{
+    margin: 0 auto;
+}
+.light-modal-body .tag-ingo{
+    margin: 5px 0 10px !important;
+}
+#signArea canvas{
+    display: block;
+    margin: 0 auto;
+}
+.light-modal-content {background: #a4b0be !important;}
+.light-btn{
+    background: #2f3542 !important;
+    padding: 8px 10px !important;
+}
+@media screen and (max-width:770px) {
+    /* screen is < 770px */
+    .light-modal-content{
+        width:98% !important;
+    }
+    .light-modal-body{padding:5px !important;}
+}
